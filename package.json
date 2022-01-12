@@ -1,0 +1,22 @@
+{
+  "name": "cydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "retryCases": "CYPRESS_RETRIES=2 cypress run",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "start": "node intergration/Elements.js 8080",
+    "reporter": "mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1"
+  },
+  "reporter": "reporters/.js"
+}
